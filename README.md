@@ -15,7 +15,7 @@ Create a web application using React.JS. The web application will be pulling jok
 1. Make it look nice 😊
 2. Saved facts are grouped by category and sorted by received time
 3. Application scales on different screen, mobile for example *- make responsive layout*
-4. ~~Code is tested (reducer tests, snapshot tests etc.)~~
+4. Code is tested (reducer tests, snapshot tests etc.)
 5. Any other “wow factor” that you can think of *- add transitions*
 
 ___
@@ -82,22 +82,21 @@ ___
 1. deleteSavedFact - (id) -> trigger a confirmation alert
     if confirm - deleteSavedFact
     if reject - do nothing
-
-#### Getters
 1. getAllSaved
 1. getSavedById
 1. getSavedByCategory
 
-#### Mutations
-1. saveFact - unshift
-1. deleteSavedFact - delete key
 
 ### Libraries
 1. React
 1. Redux 
+1. react-redux
 1. Router
 1. Axios
 1. redux-localstorage (for saved items restore on boot)
+1. redux-thunk
+1. react-router-dom
+1. ...
 
 ### UX notes
 1. On save of already saved fact user gets an alert with discard note
