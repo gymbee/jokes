@@ -8,7 +8,7 @@ function App() {
   return (
     <Layout>
 
-      <div>
+      <div className="navlinks">
         <Link to="/" exact="true">Home</Link>
         <Link to="/about">About</Link>
       </div>

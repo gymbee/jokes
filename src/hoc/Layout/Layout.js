@@ -1,8 +1,6 @@
-import classes from "./Layout.module.scss"
-
 function Layout(props) {
     return (
-        <main className={classes.container}>
+        <main>
            {props.children}
         </main>
     );
