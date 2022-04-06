@@ -21,7 +21,6 @@ export default function rootReducer(state = initialState, action) {
             }
 
         case EDIT_FACT:
-            debugger
             var updated = state.savedFacts
             updated[action.fact.id].value = action.fact.value
             return {
